@@ -1,0 +1,43 @@
+html,
+body,
+label,
+ul, li,
+a, div, span,
+header, main, section, footer,
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    box-sizing: inherit;
+    width: 100vw;
+    margin: 0 auto;
+    background-color: white;
+    max-width: 100%;
+}
+
+.img-container{
+    box-sizing: inherit;
+    width: 100%;
+    margin-bottom: 5rem;
+    border: 2px solid black;
+}
+
+img{
+    max-width: 100%;
+    height: 100vh;
+}
